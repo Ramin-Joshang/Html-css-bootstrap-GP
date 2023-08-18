@@ -1,0 +1,431 @@
+/* * Raleway and Poppins Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Sofia&display=swap');
+
+body {
+    font-family: "Open Sans", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif !important;
+}
+
+/* * Header */
+#list li a.active {
+    color: #FFC107 !important;
+}
+
+#list li a:hover {
+    color: #FFC107 !important;
+}
+
+/* * Header */
+
+/* * Banner */
+.banner {
+    min-height: 100vh;
+    height: fit-content;
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../images/hero-bg.jpg) top center fixed;
+    background-size: cover;
+}
+
+.banner .banner-content h1 {
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.banner-content .banner-content-item {
+    border: 1px solid gray;
+    padding: 30px;
+    transition: all .3s linear;
+}
+
+.banner-content-item:hover {
+    border-color: #FFC107;
+}
+
+.banner-content-item span {
+    color: #FFC107;
+    font-size: 30px;
+}
+
+.banner-content-item h3 {
+    font-size: 20px;
+    font-weight: 700;
+    transition: all .3s linear;
+    cursor: pointer;
+}
+
+.banner-content-item h3:hover {
+    color: #FFC107;
+}
+
+/* * Banner */
+
+/* * About */
+.about-slider .swiper-slide {
+    text-align: center;
+}
+
+.about-slider img {
+    filter: grayscale(100%);
+    transition: all .3s linear;
+    cursor: pointer;
+}
+
+.about-slider img:hover {
+    filter: none;
+}
+
+.about-slider .swiper {
+    padding-bottom: 30px;
+}
+
+.about-slider .swiper-pagination {
+    bottom: 0px !important;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+    background-color: #FFC107 !important;
+    width: 12px;
+    height: 12px;
+}
+
+/* * About */
+
+/* * Portfolio */
+.portfolio span {
+    font-size: 40px;
+    color: #FFC107;
+}
+
+/* * Portfolio */
+
+/* * Services */
+.services .services-title {
+    position: relative;
+    font-size: 14px;
+    color: gray;
+    display: inline-block;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.services .services-title::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: -110px;
+    width: 100px;
+    height: 1px;
+    background-color: #FFC107;
+}
+
+.services-content .services-content-item {
+    border: 1px solid #ebebeb;
+    padding: 80px 20px;
+    text-align: center;
+    transition: all .3s linear;
+    margin-bottom: 25px;
+}
+
+.services-content-item:hover {
+    border-color: #fff;
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+    transform: translateY(-10px);
+}
+
+.services-content-item span {
+    width: 60px;
+    height: 60px;
+    background-color: #FFC107;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.services-content-item h3 {
+    font-weight: bold;
+    margin: 15px 0;
+    font-size: 22px;
+    transition: color .3s linear;
+}
+
+.services-content-item h3:hover {
+    color: #FFC107;
+}
+
+/* * Services */
+
+/* * Action */
+.action {
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url(../images/cta-bg.jpg) fixed center center;
+    background-size: cover;
+    padding: 60px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.action a {
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 10px;
+    transition: all .3s linear;
+}
+
+.action a:hover {
+    border-color: #FFC107;
+    background-color: #FFC107;
+    color: black;
+}
+
+/* * Feature */
+.features span {
+    font-size: 40px;
+    color: #FFC107;
+}
+
+/* * Feature */
+
+/* * Quotation */
+.quotation {
+    background: linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url(../images/testimonials-bg.jpg) fixed center center;
+    background-size: cover;
+    padding: 60px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.quotation img {
+    width: 100px;
+    border: 6px solid rgba(255, 255, 255, 0.15);
+    border-radius: 50%;
+
+}
+
+/* * Quotation */
+
+/* * Team */
+.team .team-title {
+    position: relative;
+    font-size: 14px;
+    color: gray;
+    display: inline-block;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.team .team-title::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: -110px;
+    width: 100px;
+    height: 1px;
+    background-color: #FFC107;
+}
+
+.team .card {
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1)
+}
+
+.team .card p {
+    font-size: 12px !important;
+}
+
+/* * Team */
+
+/* * Contact */
+.contact .contact-title {
+    position: relative;
+    font-size: 14px;
+    color: gray;
+    display: inline-block;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.contact .contact-title::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: -110px;
+    width: 100px;
+    height: 1px;
+    background-color: #FFC107;
+}
+
+.contact .map {
+    margin-top: 25px;
+    height: 250px;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+    box-shadow: none !important;
+    outline: 0 !important;
+    border-color: #FFC107;
+}
+
+/* * Contact */
+
+/* * Footer */
+footer {
+    background-color: #151515;
+    color: #fff;
+}
+
+footer .social-media .address {
+    margin: 25px 0;
+}
+
+.social-media p {
+    font-size: 14px;
+}
+
+.social-media .social-links {
+    margin-top: 25px;
+}
+
+.social-media .social-links a {
+    padding: 5px 10px;
+    font-size: 20px;
+    background-color: #292929;
+    color: white;
+    margin-right: 5px;
+    border-radius: 5px;
+    transition: all .3s linear;
+}
+
+.social-links a:hover {
+    background-color: #FFC107;
+    color: #000000;
+}
+
+footer .useful-links li {
+    margin-bottom: 15px;
+}
+
+footer .useful-links li a {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    transition: all .3s linear;
+}
+
+footer .useful-links li a:hover {
+    color: #FFC107;
+}
+
+footer .useful-links li i {
+    color: #FFC107;
+}
+
+footer .services-links li {
+    margin-bottom: 15px;
+}
+
+footer .services-links li a {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    transition: all .3s linear;
+}
+
+footer .services-links li a:hover {
+    color: #FFC107;
+}
+
+footer .services-links li i {
+    color: #FFC107;
+}
+
+footer .newsletter p {
+    margin: 30px 0;
+    font-size: 13px;
+}
+
+.newsletter input:focus {
+    box-shadow: none;
+}
+
+.newsletter button {
+    font-size: 14px;
+}
+
+footer .copyright {
+    text-align: center;
+    padding: 45px 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+}
+
+/* * Footer */
+
+/* -------------------------------------------------------------------------- */
+/*                               * Responsive                                 */
+/* -------------------------------------------------------------------------- */
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .banner {
+        padding-top: 100px;
+    }
+
+    .banner-content h1 {
+        font-size: 40px !important;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    #navbarSupportedContent {
+        background-color: white;
+        border-radius: 5px;
+    }
+
+    #navbarSupportedContent ul {
+        padding: 25px 0 0 25px;
+
+    }
+
+    #navbarSupportedContent ul li a {
+        color: black;
+    }
+
+    #navbarSupportedContent button {
+        color: black !important;
+        margin: 0 0 25px 25px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    .banner-content h1 {
+        font-size: 30px !important;
+    }
+}
+
+/* XX-Large devices (larger desktops) */
+/* No media query since the xxl breakpoint has no upper bound on its width */
